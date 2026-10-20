@@ -1,0 +1,39 @@
+body {
+    font-family: Arial,  sans-serif;
+    margin:5%;
+    padding:20px;
+    background-color: lightgrey
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color:red
+}
+a {
+    text-decoration-line: none    
+}
+a:hover {
+    color: lightblue
+}
+img {
+    border-radius: 4px;
+    outline-style: ridge
+}
+table{
+    outline-style: solid;
+    outline-width: 1px;
+}
+tr {
+    outline:solid;
+    outline-width: 1px;
+    padding: 2px;
+    font-weight: normal
+}
+th {
+    outline:solid;
+    outline-width: 1px;
+    padding: 4px;
+    font-weight: normal
+}
+ul {
+    list-style-type:none
+}
