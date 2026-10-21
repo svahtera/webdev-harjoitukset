@@ -1,39 +1,113 @@
 body {
-    width: 92%;
-    justify-content: center;
-    margin: auto;
+  width: 92%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: floralwhite;
+}
+.main-body {
+  background-image:
+  linear-gradient(
+    gainsboro,
+    silver,
+    silver,
+    silver,
+    transparent
+  );
+}
+.main-content {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 img {
+    max-width: 100%
+}
+img.header {
   max-width: 100%;
   height: auto;
+  justify-content: center;
+}
+img.product {
+  max-width: 400px;
+  height: auto;
+}
+p.contact {
+  font-style: italic;
+}
+.front {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
 }
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10%;
+  margin-top: 0;
 }
-.box {
-  width: 200px;
-  padding: 20px;
-  border: 4px solid black;
-  margin: 20px;
-  background-color: lightblue;
+h2 {
+  margin-top: 0;
+}
+a {
+    text-decoration: none;
+    color: initial;
+    font-weight: bold;
 }
 .flex-container {
   display: flex;
-  gap: 10px;
 }
-.flex-card{
+.flex-40 {
+  padding-right: 1rem;
+  text-justify: left;
+  flex-basis: 20%;
+}
+.flex-menu {
+  display: flex;
+  opacity: 0.9;
+}
+.flex-menu-card {
   padding: 20px;
-  width:  8%;
-  background-color: peachpuff;
-  border: 1px solid #333;
+  align-content: center;
+  text-align: center;
 }
-.flex-card:hover{
-    background-color: aliceblue;
+a.flex-menu-card {
+  font-weight: normal;
 }
-
-.flex-spacer{
-    margin: auto
+.flex-menu-card:hover {
+  background-color: whitesmoke;
 }
-.push {
-    margin-left:auto 
+.flex-spacer {
+  margin: auto;
+}
+.grid-container {
+  display: grid;
+  opacity: 0.9;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.grid-item {
+  padding: 20px;
+  align-content: justify;
+  text-align: center;
+  margin: auto;
+  background-color: ghostwhite;
+}
+@media (max-width: 1600px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 1280px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 720px) {
+  img.product {
+  max-width: 200px;
+  height: auto;
+  }
+}
+@media (max-width: 1520px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
