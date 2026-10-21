@@ -76,38 +76,23 @@ a.flex-menu-card {
 .flex-spacer {
   margin: auto;
 }
-.grid-container {
-  display: grid;
+.flex-container-products {
+  display: flex;
   opacity: 0.9;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-.grid-item {
+.flex-card-product {
   padding: 20px;
   align-content: justify;
   text-align: center;
   margin: auto;
   background-color: ghostwhite;
 }
-@media (max-width: 1600px) {
-  .grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media (max-width: 1280px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-}
 @media (max-width: 720px) {
   img.product {
   max-width: 200px;
   height: auto;
-  }
-}
-@media (max-width: 1520px) {
-  .flex-container {
-    flex-direction: column;
   }
 }
