@@ -50,6 +50,9 @@ a {
     color: initial;
     font-weight: bold;
 }
+a.navigation {
+  font-weight: normal;
+}
 .flex-container {
   display: flex;
 }
@@ -67,9 +70,6 @@ a {
   align-content: center;
   text-align: center;
 }
-a.flex-menu-card {
-  font-weight: normal;
-}
 .flex-menu-card:hover {
   background-color: whitesmoke;
 }
@@ -81,6 +81,7 @@ a.flex-menu-card {
   opacity: 0.9;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .flex-card-product {
