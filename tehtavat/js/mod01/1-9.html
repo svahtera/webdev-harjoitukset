@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="target"></p>
+    <script>
+        const number = parseInt(prompt("Syötä numero"));
+        let isPrime = true;
+        for (let i = 2; i <= number/2; i++) {
+            if (number % i === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime == true) {
+                    document.querySelector("#target").innerHTML =
+                    number + " on alkuluku.";
+        }
+        else {
+                    document.querySelector("#target").innerHTML =
+                    number + " ei ole alkuluku.";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Tehtävä 3</title>
+</head>
+<body>
+    <h1>Lukuharjoitus</h2>
+    <p id="target"></P>
+        <script>
+            "use strict";
+            let summa = 0;
+            for (let i = 1; i <= 3; i++){
+                summa = summa + parseInt(prompt("Syötä luku"));}
+            document.querySelector("#target").innerHTML =
+            "Lukujen summa on " + summa + ".";
+        </script>
+</body>
+</html>

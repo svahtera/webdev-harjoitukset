@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Tehtävä 7</title>
+</head>
+<body>
+    <h1>Noppaharjoitus</h2>
+    <p id="target"></P>
+        <script>
+            "use strict";
+            let summa = 0;
+            let numberof = parseInt(prompt("Kuinka monta noppaa?"));
+            for (let i = 0; i < numberof; i++){
+                summa = summa + parseInt(Math.random()*6) + 1;}
+            document.querySelector("#target").innerHTML =
+            "Noppien silmälukujen summa on " + summa + ".";
+        </script>
+</body>
+</html>

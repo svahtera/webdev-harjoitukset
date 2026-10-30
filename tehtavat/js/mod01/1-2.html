@@ -6,11 +6,12 @@
     <title>JS Tehtävä</title>
 </head>
 <body>
-    <p id="kohde">Teksti</p>
-    <script src="1-2.js" defer>
-        
-        document.querySelector("#kohde").innerHTML =
-        "Terve, " + nimi + "!";
+    <p id="target"></p>
+    <script>
+      "use strict";
+      const nimi = prompt("Mikä on nimesi?");
+      document.querySelector("#target").innerHTML =
+        "Hyvää huomenta, " + nimi + "!";
     </script>
 </body>
 </html>
