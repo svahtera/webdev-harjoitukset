@@ -41,6 +41,7 @@ p.contact {
 h1 {
   padding-top: 10%;
   margin-top: 0;
+  text-align: center;
 }
 h2 {
   margin-top: 0;
@@ -94,6 +95,13 @@ a.navigation {
   background-color: ghostwhite;
   max-width: 25%;
 }
+@media (max-width: 1440px) {
+  img.product {
+  max-width: 200px;
+  height: auto;
+  }
+}
+
 @media (max-width: 720px) {
   img.product {
   max-width: 100px;
