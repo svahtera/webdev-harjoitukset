@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Äänestys</title>
+</head>
+<body>
+    <script>
+        let count = parseInt(prompt("Kuinka monta ehdokasta?"));
+        const candidates = [];
+
+        for (let i = 0; i < count; i++) {
+            entryName = prompt("Ehdokkaan nimi");
+            candidate = {
+                name: entryName,
+                votes: 0
+            };
+            candidates.push(candidate);
+        };
+        console.log("ehdokkaat kirjattu")
+        for (let nimi in candidates){
+            console.log(nimi[name])
+        }
+    </script>
+</body>
+</html>

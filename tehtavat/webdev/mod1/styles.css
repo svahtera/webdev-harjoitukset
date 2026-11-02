@@ -95,14 +95,19 @@ a.navigation {
   background-color: ghostwhite;
   max-width: 25%;
 }
+@media (max-width: 1920px) {
+  img.product {
+  max-width: 300px;
+  height: auto;
+  }
+}
 @media (max-width: 1440px) {
   img.product {
   max-width: 200px;
   height: auto;
   }
 }
-
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   img.product {
   max-width: 100px;
   height: auto;
