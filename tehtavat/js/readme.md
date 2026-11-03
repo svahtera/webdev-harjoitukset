@@ -9,4 +9,4 @@ Tehdyt tehtävät:
 JS Moduuli 1
 Tehdyt Tehtävät:
 - Tehtävä 1 2p
-- Tehtävä 10 (työn alla)
+- Tehtävä 10 (8p)
