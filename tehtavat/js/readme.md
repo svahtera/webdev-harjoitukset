@@ -17,3 +17,13 @@ Tehdyt Tehtävät
 - Tehtävä 2 2p
 - Tehtävä 3 2p
 - Tethävä 7 4p
+
+JS Moduuli 5
+Tehdyt Tehtävät
+- Tehtävä 1 2p
+- Tehtävä 2 3p
+- Tehtävä 3 7p
+
+Flask
+Tehdyt Tehtävät
+- Tehtävä 2 10p
