@@ -6,7 +6,14 @@ Tehdyt tehtävät:
 - Tehtävä 7 2p
 - Tehtävä 9 2p
 
-JS Moduuli 1
+JS Moduuli 3
 Tehdyt Tehtävät:
 - Tehtävä 1 2p
-- Tehtävä 10 (8p)
+- Tehtävä 10 8p
+    
+JS Moduuli 4
+Tehdyt Tehtävät
+- Tehtävä 1 2p
+- Tehtävä 2 2p
+- Tehtävä 3 2p
+- Tethävä 7 4p
